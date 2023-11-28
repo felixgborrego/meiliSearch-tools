@@ -1,6 +1,7 @@
 # MeiliSearch tools
 
-Very basic set of tools to work with MeiliSearch for personal use.
+Very basic set of tools to work with MeiliSearch for personal use, ⚠️ Nothing interesting to see here.
+
 For now, it only contains very basic tools like:
 - Import from a directory with json files into a Melisearch index
 - Fetch index stats
@@ -17,7 +18,7 @@ For now, it only contains very basic tools like:
 ```bash
 #Load the documents
 mtool import \
-		--folder <path to folder> \ 
+    --folder <path to folder> \ 
     --host-api http://localhost:7700  \
     --index-name <index_name> \ 
     --api-key <api_key>
